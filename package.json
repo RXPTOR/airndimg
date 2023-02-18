@@ -1,13 +1,13 @@
 {
-  "homepage" : "http://rxptor.github.io/airndimg",
+  "homepage": "http://rxptor.github.io/airndimg",
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
